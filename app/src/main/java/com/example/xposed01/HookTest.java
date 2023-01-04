@@ -51,6 +51,5 @@ public class HookTest implements IXposedHookLoadPackage {
 
     private void log(String s) {
         XposedBridge.log(s);
-        Log.i("HookTest", s);
     }
 }
